@@ -7,6 +7,8 @@
             <h3 class="mb-0">{{ .role }}</h3>
             <div class="subheading mb-3">{{ .company | markdownify }}</div>
             <p>{{ .summary | markdownify }}</p>
+            <div class="subheading mb-3">TASKS AND PROJECTS</div>
+            <p>{{.tasks | markdownify}}</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">{{ .range }}</span>
