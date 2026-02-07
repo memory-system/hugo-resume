@@ -23,6 +23,11 @@
             <a class="nav-link" href="/contact">{{ i18n "contact" }}</a>
           </li>
       {{ end }}
+      {{ if .Site.Params.showStudy}}
+          <li class="nav-item">
+            <a class="nav-link" href="/study">What is SRE?</a>
+          </li>
+      {{ end }}
     </ul>
   </div>
 </nav>
